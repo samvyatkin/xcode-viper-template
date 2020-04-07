@@ -1,5 +1,4 @@
 # Xcode VIPER Template
-___
 
 ## Installation
 
