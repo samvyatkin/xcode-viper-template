@@ -10,7 +10,7 @@ public final class ___VARIABLE_productName:identifier___ViewController: UIViewCo
 
     public let presenter: ___VARIABLE_productName:identifier___PresenterProtocol
 
-    // MARK: - Constructor
+    // MARK: - Initializer
 
     public init(_ presenter: ___VARIABLE_productName:identifier___PresenterProtocol) {
         self.presenter = presenter

@@ -6,7 +6,7 @@ import Foundation
 
 public final class ___VARIABLE_productName:identifier___Interactor: ___VARIABLE_productName:identifier___InteractorProtocol {
 
-    // MARK: - Constructor
+    // MARK: - Initializer
 
     public init() { }
 

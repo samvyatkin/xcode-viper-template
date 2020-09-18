@@ -14,7 +14,7 @@ public final class ___VARIABLE_productName:identifier___Presenter: ___VARIABLE_p
 
     public var router: ___VARIABLE_productName:identifier___RouterProtocol?
 
-    // MARK: - Constructor
+    // MARK: - Initializer
 
     public init() { }
 

@@ -10,7 +10,7 @@ public protocol ___VARIABLE_productName:identifier___Interface: AnyObject {
 
     var presenter: ___VARIABLE_productName:identifier___PresenterProtocol { get }            
 
-    // MARK: - Constructor
+    // MARK: - Initializer
 
     init(_ presenter: ___VARIABLE_productName:identifier___PresenterProtocol)
 

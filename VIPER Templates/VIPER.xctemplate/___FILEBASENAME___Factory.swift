@@ -10,7 +10,7 @@ public final class ___VARIABLE_productName:identifier___Factory {
 
     private let builder: ___VARIABLE_productName:identifier___Builder
 
-    // MARK: - Constructor
+    // MARK: - Initializer
 
     public init(builder: ___VARIABLE_productName:identifier___Builder) {
         self.builder = builder
