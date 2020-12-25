@@ -8,11 +8,11 @@ public final class ___VARIABLE_productName:identifier___Builder {
 
     // MARK: - Properties
 
-    private var interactor: ___VARIABLE_productName:identifier___InteractorProtocol!
+    private var interactor: ___VARIABLE_productName:identifier___InteractorInterface!
 
-    private var presenter: ___VARIABLE_productName:identifier___PresenterProtocol!
+    private var presenter: ___VARIABLE_productName:identifier___PresenterInterface!
 
-    private var router: ___VARIABLE_productName:identifier___RouterProtocol!
+    private var router: ___VARIABLE_productName:identifier___RouterInterface!
 
     // MARK: - Initializer
 
@@ -20,17 +20,17 @@ public final class ___VARIABLE_productName:identifier___Builder {
 
     // MARK: - Setters
 
-    public func set(_ interactor: ___VARIABLE_productName:identifier___InteractorProtocol) -> Self {
+    public func set(_ interactor: ___VARIABLE_productName:identifier___InteractorInterface) -> Self {
         self.interactor = interactor
         return self
     }
 
-    public func set(_ presenter: ___VARIABLE_productName:identifier___PresenterProtocol) -> Self {
+    public func set(_ presenter: ___VARIABLE_productName:identifier___PresenterInterface) -> Self {
         self.presenter = presenter
         return self
     }
 
-    public func set(_ router: ___VARIABLE_productName:identifier___RouterProtocol) -> Self {
+    public func set(_ router: ___VARIABLE_productName:identifier___RouterInterface) -> Self {
         self.router = router
         return self
     }

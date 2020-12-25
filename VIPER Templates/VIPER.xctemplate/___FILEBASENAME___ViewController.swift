@@ -8,11 +8,11 @@ public final class ___VARIABLE_productName:identifier___ViewController: UIViewCo
 
     // MARK: - Properties
 
-    public let presenter: ___VARIABLE_productName:identifier___PresenterProtocol
+    public let presenter: ___VARIABLE_productName:identifier___PresenterInterface
 
     // MARK: - Initializer
 
-    public init(_ presenter: ___VARIABLE_productName:identifier___PresenterProtocol) {
+    public init(_ presenter: ___VARIABLE_productName:identifier___PresenterInterface) {
         self.presenter = presenter
         super.init(nibName: nil, bundle: nil)        
     }
@@ -26,11 +26,12 @@ public final class ___VARIABLE_productName:identifier___ViewController: UIViewCo
     public override func viewDidLoad() {
         super.viewDidLoad()
         setup()
+        presenter.viewDidLoad()
     }
     
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        presenter.setupView()
+        presenter.viewWillAppear()
     }
 
     // MARK: - Actions
@@ -44,6 +45,7 @@ public final class ___VARIABLE_productName:identifier___ViewController: UIViewCo
     private func setup() {
         setupAppearance()
         setupNavigationBar()
+        setupToolbar()
     }
 
     private func setupAppearance() {
@@ -51,6 +53,10 @@ public final class ___VARIABLE_productName:identifier___ViewController: UIViewCo
     }
 
     private func setupNavigationBar() {
+
+    }
+
+    private func setupToolbar() {
 
     }
 }

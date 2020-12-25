@@ -2,7 +2,7 @@
 //  ___FILEHEADER___
 //
 
-import UIKit
+import Foundation
 
 public final class ___VARIABLE_productName:identifier___Factory {
 

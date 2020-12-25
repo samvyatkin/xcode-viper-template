@@ -8,11 +8,11 @@ public protocol ___VARIABLE_productName:identifier___Interface: AnyObject {
 
     // MARK: - Properties
 
-    var presenter: ___VARIABLE_productName:identifier___PresenterProtocol { get }            
+    var presenter: ___VARIABLE_productName:identifier___PresenterInterface { get }            
 
     // MARK: - Initializer
 
-    init(_ presenter: ___VARIABLE_productName:identifier___PresenterProtocol)
+    init(_ presenter: ___VARIABLE_productName:identifier___PresenterInterface)
 
     // MARK: - Functions
 
