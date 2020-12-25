@@ -4,7 +4,7 @@
 
 import UIKit
 
-public protocol ___VARIABLE_productName:identifier___RouterProtocol: AnyObject {
+public protocol ___VARIABLE_productName:identifier___RouterInterface: AnyObject {
 
     // MARK: - Properties
 
