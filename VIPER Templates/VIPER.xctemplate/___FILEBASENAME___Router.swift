@@ -4,7 +4,7 @@
 
 import UIKit
 
-public final class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:identifier___RouterProtocol {
+public final class ___VARIABLE_productName:identifier___Router: ___VARIABLE_productName:identifier___RouterInterface {
 
     // MARK: - Properties
 

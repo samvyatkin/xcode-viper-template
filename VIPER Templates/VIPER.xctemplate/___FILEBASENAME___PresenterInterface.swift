@@ -14,6 +14,10 @@ public protocol ___VARIABLE_productName:identifier___PresenterInterface: AnyObje
 
     var router: ___VARIABLE_productName:identifier___RouterInterface! { get set }
 
+    var analytics: ___VARIABLE_productName:identifier___Analyticable? { get set }
+
+    var delegate: ___VARIABLE_productName:identifier___Delegate? { get set }
+
     // MARK: - Functions
 
     func viewDidLoad()

@@ -22,11 +22,13 @@ public final class ___VARIABLE_productName:identifier___Factory {
 
     // MARK: - Functions
 
-    public func make() -> UIViewController {
+    public func make(_ delegate: ___VARIABLE_productName:identifier___Delegate?) -> UIViewController {
         return builder
             .set(___VARIABLE_productName:identifier___Interactor()) 
             .set(___VARIABLE_productName:identifier___Presenter())
             .set(___VARIABLE_productName:identifier___Router())
+            .set(___VARIABLE_productName:identifier___Analytics())
+            .set(delegate)
             .build()
     }
 }

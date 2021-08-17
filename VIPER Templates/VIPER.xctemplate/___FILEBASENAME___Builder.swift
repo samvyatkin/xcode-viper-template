@@ -14,6 +14,10 @@ public final class ___VARIABLE_productName:identifier___Builder {
 
     private var router: ___VARIABLE_productName:identifier___RouterInterface!
 
+    private var analytics: ___VARIABLE_productName:identifier___Analyticable?
+
+    private weak var delegate: ___VARIABLE_productName:identifier___Delegate?
+
     // MARK: - Initializer
 
     public init() { }
@@ -35,6 +39,16 @@ public final class ___VARIABLE_productName:identifier___Builder {
         return self
     }
 
+    public func set(_ analytics: ___VARIABLE_productName:identifier___Analyticable?) -> Self {
+        self.analytics = analytics
+        return self
+    }
+
+    public func set(_ delegate: ___VARIABLE_productName:identifier___Delegate?) -> Self {
+        self.delegate = delegate
+        return self
+    }
+
     // MARK: - Functions
 
     public func build() -> UIViewController {
@@ -48,6 +62,8 @@ public final class ___VARIABLE_productName:identifier___Builder {
 
         presenter.interactor = interactor
         presenter.router = router
+        presenter.analytics = analytics
+        presenter.delegate = delegate
 
         let controller: ___VARIABLE_productName:identifier___ViewController = .init(presenter)
         let navigation: UINavigationController = .init(rootViewController: controller)
